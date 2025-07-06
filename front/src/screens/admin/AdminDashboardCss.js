@@ -1,0 +1,80 @@
+import { makeStyles } from "@mui/styles";
+
+export const useStyles = makeStyles({
+  root: {
+    width: "auto",
+    height: "auto",
+    background: "#dfe4ea",
+    display: "flex",
+    alignItems: "center",
+    // justifyContent: "center",
+    flexDirection: "column",
+    padding: 10,
+  },
+  box: {
+    width: "100%",
+    height: "auto",
+    borderRadius: 10,
+    background: "#fff",
+    padding: 10,
+    marginBottom: 10,
+    boxShadow: "0 0 5px #aaa",
+  },
+  center: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  leftBarStyle: {
+    padding: 5,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    margin: 10,
+  },
+  nameStyle: {
+    fontFamily: "Kanit",
+    fontSize: 16,
+    fontWeight: "bold",
+    marginTop: 5,
+    marginBottom: 2,
+    color: "black",
+  },
+  phoneStyle: {
+    fontFamily: "Kanit",
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#445261",
+  },
+  emailStyle: {
+    fontFamily: "Kanit",
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#445261",
+  },
+  listItem: {
+    backgroundColor: "#3b3d4020",
+    borderRadius: 10,
+    width: "90% !important",
+    marginLeft: "auto",
+    marginRight: "auto",
+    marginTop: 7,
+  },
+  //  menuStyle:{
+  //   fontFamily:'Kanit',
+  //   fontSize:18,
+  //   fontWeight:'bold',
+  //   display:'flex',
+  //   justifyContent:'left',
+  //   width:300,
+  //  },
+  menuStyle: {
+    marginInline: "2px",
+  },
+  menuItemStyle: {
+    fontFamily: "Kanit",
+    fontSize: 15,
+    fontWeight: "bold",
+  },
+});

@@ -1,0 +1,45 @@
+# Node modules (for both frontend and backend)
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.*
+
+# Build output (React frontend)
+**/build/
+**/dist/
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Mac system files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sw?
+
+# Coverage
+coverage/
+
+# SQLite (if used)
+*.sqlite
+*.sqlite3
+
+# Misc
+*.tgz
+package-lock.json
+
+# OS generated
+Thumbs.db
+ehthumbs.db
